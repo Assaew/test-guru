@@ -31,8 +31,8 @@ Question.create!(body: 'Question2', test_id: 1)
 Question.create!(body: 'Question3', test_id: 2)
 Question.create!(body: 'Question4', test_id: 3)
 
-Test.create!(title: 'Ruby', level: 1)
-Test.create!(title: 'HTML')
-Test.create!(title: 'GO', level: 2)
-Test.create!(title: 'Python', level: 1)
+Test.create!(title: 'Ruby', level: 1, category_id: 1)
+Test.create!(title: 'HTML', category_id: 2)
+Test.create!(title: 'GO', level: 2, category_id: 3)
+Test.create!(title: 'Python', level: 1, category_id: 2)
 
